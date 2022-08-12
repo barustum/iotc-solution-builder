@@ -24,3 +24,6 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run make
+    - run: npm run publish
+      env:
+        GH_SECRET: ${{secrets.SOLUTION_BUILDER_SECRET}}
