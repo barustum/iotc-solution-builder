@@ -55,5 +55,16 @@ module.exports = {
                 }
             }
         ]
+    ],
+    publishers: [
+        {
+            name: '@electron-forge/publisher-github',
+            config: {
+              repository: {
+                owner: 'barustum',
+                name: 'iotc-solution-builder',
+              },
+            }, 
+        }
     ]
 };
