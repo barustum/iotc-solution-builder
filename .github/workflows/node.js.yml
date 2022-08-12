@@ -22,5 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
+    - run: npm install
+      working-directory: ./iotc-solution-builder
     - run: npm run make
+      working-directory: ./iotc-solution-builder
