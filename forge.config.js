@@ -1,6 +1,7 @@
 module.exports = {
     packagerConfig: {
-        icon: './src/assets/icon'
+        icon: './src/assets/icon',
+        name: 'iotc-solution-builder'
     },
     makers: [
         {
