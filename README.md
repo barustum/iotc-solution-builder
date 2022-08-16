@@ -93,3 +93,5 @@ Make the platform specific setup packages:
 npm run make
 ```
 After the make command completes you will find the platform specific builds in the `./out` directory.
+
+![Executables](https://github.com/barustum/iotc-solution-builder/actions/workflows/iotc-solution-builder-release.yml/badge.svg)
